@@ -1,4 +1,4 @@
-const BASE_URL = '/api/Students'
+const BASE_URL = 'https://sheshanbackend-dbe6etbva0bchbhy.canadacentral-01.azurewebsites.net/api/Students'
 
 async function parseResponse(response) {
   const contentType = response.headers.get('content-type') || ''
